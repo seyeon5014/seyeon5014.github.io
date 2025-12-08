@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #000;
+  color: #934A5F;
   position: relative;
   background: transparent;
 }
@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #ffffff;
+  background: #57648C;
   background-size: cover;
   left: 0;
   right: 0;
@@ -33,11 +33,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #934A5F;
 }
 
 a:hover {
-  color: #12d640;
+  color: #934A5F;
   text-decoration: none;
 }
 
@@ -82,12 +82,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h4 a {
-  color: #000;
+  color: #934A5F;
   text-decoration: none;
 }
 
 #header h4 a:hover {
-  color: #12d640;
+  color: #934A5F;
 }
 
 #header .header-profile-img {
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #000;
+  color: #934A5F;
   line-height: 1;
   display: inline-block;
 }
@@ -121,12 +121,12 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #12d640;
+  color: #934A5F;
 }
 
 #header h2 span {
-  color: #ffc107;
-  border-bottom: 2px solid #1c7d32;
+  color: #934A5F;
+  border-bottom: 2px solid #934A5F;
   padding-bottom: 6px;
 }
 
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #000;
+  color: #934A5F;
   font-size: 19px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #12d640;
+  background-color: #934A5F;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #12d640;
+  color: #934A5F;
   text-decoration: none;
 }
 
@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #000;
+  color: #934A5F;
 }
 
 .mobile-nav {
@@ -275,14 +275,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #000;
+  color: #934A5F;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #12d640;
+  color: #934A5F;
   text-decoration: none;
 }
 
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #000;
+  color: #934A5F;
 }
 
 /* Header Top */
@@ -516,31 +516,31 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #934A5F;
   padding: 20px;
   width: 100%;
-  background: #09203a;
+  background: #E5E5E5;
 }
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #dee2e6;
+  color: #934A5F;
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(194, 180, 214, 0.35);
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #28a745;
+  color: #934A5F;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
 
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: #934A5F;
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
@@ -554,14 +554,14 @@ section .container {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  color: #934A5F;
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
 }
 
 .contact .info-box .social-links a:hover {
-  color: #12d640;
+  color: #934A5F;
 }
 
 .contact .php-email-form {
