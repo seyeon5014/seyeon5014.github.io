@@ -58,6 +58,15 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
 }
 
+#header .header-profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #12d640;
+}
+
 #header * {
   transition: ease-in-out 0s;
 }
@@ -140,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  margin-top: 35px;
+  margin-top: 80px;
 }
 
 .nav-menu ul {
@@ -151,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li + li {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .nav-menu a {
