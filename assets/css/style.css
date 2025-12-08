@@ -58,6 +58,30 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
 }
 
+#header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#header h4 {
+  font-size: 32px;
+  margin: 20px 0 10px 0;
+  padding: 0;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+#header h4 a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+
+#header h4 a:hover {
+  color: #12d640;
+}
+
 #header .header-profile-img {
   width: 150px;
   height: 150px;
@@ -149,14 +173,16 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  margin-top: 80px;
+  margin-top: 60px;
+  width: 100%;
 }
 
 .nav-menu ul {
   display: flex;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
+  justify-content: center;
 }
 
 .nav-menu li + li {
