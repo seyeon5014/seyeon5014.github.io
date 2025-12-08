@@ -377,6 +377,10 @@ section.section-show {
 section .container {
   background: rgba(0, 0, 0, 0);
   padding: 30px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 100% !important;
+  text-align: center !important;
 }
 
 @media (max-width: 768px) {
@@ -425,29 +429,54 @@ section .container {
 .about {
   padding: 60px 0;
   width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .about .container {
   text-align: center !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  display: block !important;
 }
 
 .about-text {
   text-align: center !important;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .about-image {
   text-align: center !important;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-image img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .about-info {
+  text-align: center !important;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-info h5 {
   text-align: center !important;
 }
 
 .about-info ul {
   text-align: left !important;
   display: inline-block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /*--------------------------------------------------------------
