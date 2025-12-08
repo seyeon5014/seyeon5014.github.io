@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #934A5F;
+  color: #C2B4D6;
   font-size: 19px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #934A5F;
+  background-color: #C2B4D6;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #934A5F;
+  color: #C2B4D6;
   text-decoration: none;
 }
 
