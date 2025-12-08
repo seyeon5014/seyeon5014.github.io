@@ -197,7 +197,7 @@
       const modal = document.getElementById('imageModal');
       const image = document.getElementById('modalImage');
       image.src = imageSrc;
-      modal.style.display = 'flex';
+      modal.style.display = 'block';
     }
 
     function closeImageModal() {
@@ -249,9 +249,9 @@
   </section> <!--End Pictures Section -->
 
   <!-- Image Modal -->
-  <div id="imageModal" style="display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.95); justify-content: center; align-items: center;">
+  <div id="imageModal" style="display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.95);">
     <span style="position: absolute; top: 20px; right: 30px; color: #f1f1f1; font-size: 40px; font-weight: bold; cursor: pointer;" onclick="closeImageModal()">&times;</span>
-    <img id="modalImage" style="max-width: 90%; max-height: 90%; object-fit: contain;">
+    <img id="modalImage" style="display: block; margin: 50px auto; max-width: 90%; max-height: 90vh; object-fit: contain;">
   </div>
 
   <!-- Start Contact Section -->
