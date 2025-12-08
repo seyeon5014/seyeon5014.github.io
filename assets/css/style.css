@@ -480,6 +480,26 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Instagram
+--------------------------------------------------------------*/
+.instagram {
+  padding: 60px 0;
+}
+
+.instagram .section-title {
+  text-align: center;
+}
+
+.instagram .section-title h2 {
+  font-size: 36px;
+}
+
+.instagram iframe {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
