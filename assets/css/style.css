@@ -480,23 +480,36 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Instagram
+# Video & Pictures
 --------------------------------------------------------------*/
-.instagram {
+.video, .pictures {
   padding: 60px 0;
 }
 
-.instagram .section-title {
+.video .section-title, .pictures .section-title {
   text-align: center;
 }
 
-.instagram .section-title h2 {
+.video .section-title h2, .pictures .section-title h2 {
   font-size: 36px;
 }
 
-.instagram iframe {
+.video blockquote, .pictures blockquote {
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
+}
+
+.pictures .instagram-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.pictures .instagram-feed blockquote {
+  max-width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 /*--------------------------------------------------------------
