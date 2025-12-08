@@ -139,18 +139,56 @@
       <div class="section-title">
         <h2>Video</h2>
       </div>
-      <div class="row" style="justify-content: center;">
-        <div class="col-md-8" style="text-align: center;">
-          <div style="background: #09203a; border-radius: 10px; padding: 20px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15);">
-            <video width="100%" height="auto" controls style="border-radius: 8px; cursor: pointer;">
-              <source src="assets/video/american idiot #greenday #일렉기타 #shorts.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
+      <div class="video-feed" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px;">
+        <!-- 비디오 1 -->
+        <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15); cursor: pointer; position: relative; background: #09203a;" onclick="openVideoModal('assets/video/american.mp4')">
+          <div style="width: 100%; height: 250px; display: flex; align-items: center; justify-content: center; background: #09203a; position: relative;">
+            <svg style="position: absolute; width: 60px; height: 60px; fill: #12d640; opacity: 0.8;" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            <span style="position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.7); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px;">American</span>
+          </div>
+        </div>
+        <!-- 비디오 2 -->
+        <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15); cursor: pointer; position: relative; background: #09203a;" onclick="openVideoModal('assets/video/tik tak tok.mp4')">
+          <div style="width: 100%; height: 250px; display: flex; align-items: center; justify-content: center; background: #09203a; position: relative;">
+            <svg style="position: absolute; width: 60px; height: 60px; fill: #12d640; opacity: 0.8;" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            <span style="position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.7); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px;">Tik Tak Tok</span>
           </div>
         </div>
       </div>
     </div>
   </section> <!--End Video Section -->
+
+  <!-- 비디오 모달 -->
+  <div id="videoModal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); align-items: center; justify-content: center;">
+    <div style="position: relative; background: #1a1a2e; border-radius: 10px; padding: 20px; max-width: 90%; max-height: 90%; overflow: auto;">
+      <span onclick="closeVideoModal()" style="position: absolute; right: 20px; top: 15px; font-size: 30px; font-weight: bold; color: #fff; cursor: pointer;">&times;</span>
+      <video id="modalVideo" width="100%" height="auto" controls autoplay style="border-radius: 8px; max-width: 800px;">
+        <source src="" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <script>
+    function openVideoModal(videoSrc) {
+      const modal = document.getElementById('videoModal');
+      const video = document.getElementById('modalVideo');
+      video.src = videoSrc;
+      modal.style.display = 'flex';
+    }
+    function closeVideoModal() {
+      const modal = document.getElementById('videoModal');
+      const video = document.getElementById('modalVideo');
+      video.pause();
+      modal.style.display = 'none';
+    }
+    window.onclick = function(event) {
+      const modal = document.getElementById('videoModal');
+      if (event.target == modal) {
+        closeVideoModal();
+      }
+    }
+  </script>
 
   <!-- Start Pictures Section -->
   <section id="pictures" class="pictures">
