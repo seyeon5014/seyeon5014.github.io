@@ -5,7 +5,7 @@
 
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/seyeon5014/SE-YEON PARK.github.io/commits/master)
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://SE-YEON PARK.github.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/SE-YEON PARK/)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/%EC%84%B8%EC%97%B0-%EB%B0%95-3875a6398/?trk=public-profile-join-page)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ## Features 📋

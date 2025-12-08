@@ -73,6 +73,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
+#header h4::before {
+  content: "" !important;
+}
+
+#header h4::after {
+  content: "" !important;
+}
+
 #header h4 a {
   color: #dee2e6;
   text-decoration: none;
@@ -314,8 +322,13 @@ h1, h2, h3, h4, h5, h6 {
   background: #09203a;
 }
 
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links, #header.header-top h2, #header.header-top .header-profile-img {
   display: none;
+}
+
+#header.header-top h4 {
+  margin: 0;
+  font-size: 24px;
 }
 
 #header.header-top h1 {
